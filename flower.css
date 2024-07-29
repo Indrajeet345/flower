@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;}
+.section {
+    display: inline-block;    
+    background-color: white;
+    transform: show(-300deg);
+    box-shadow: 2px 2px 5px rgb(200, 195, 195);
+    padding: 20px;
+    width: 1500px;
+    height: 25px;
+}
+.logo{
+    display: inline-block;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    margin-left: 50px;
+    position: relative;
+    bottom: 10px;
+}
+.logo font{
+    color: red;
+    position: relative;
+    top: 7px;
+    font-size: 25px;
+}
+.sub-section{
+    display: inline-block;
+    margin-left: 245px;
+    position: relative;
+    bottom: 17px;
+}
+.icon{
+    display: inline-block;
+    margin-left: 200px;
+    position: relative;
+    bottom: 8px;
+    cursor: pointer;
+}
+.icon img{
+    padding: 5px;
+}
+.sub-section a{
+    text-decoration: none;
+    color: rgb(163, 154, 154);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    padding: 15px;
+    font-size: 17px;
+    transition: all 0.05s;
+}
+.sub-section a:hover{
+    color: red;
+    }
+
+    .in{
+        position: relative;
+        left: 70px;
+        top: 200px;
+    }
+    .intr{
+        font-size: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+    }
+    .icon img:hover{
+       background-color: pink;
+    }
+    .int{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 500;
+        color: rgb(230, 67, 143);
+        margin-top: 5px;
+    }
+    .p{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        width: 400px;
+        font-size: 15px;
+        font-weight: 500;
+        color: blue;
+        margin-top: 8px;
+    }
+    .btn{
+        width: 140px;
+        padding: 7px;
+        background-color: black;
+        border: none;
+        border-radius: 22px;
+        margin-top: 17px;
+        transition: all 0.5s;
+        cursor: pointer;
+    }
+    .btn a{
+        color: white;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 15px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        transition: all 0.5s;
+    }
+    .btn:hover{
+        background-color: transparent;
+
+    }
+    .btn a:hover{
+        color: black;
+        border: 5px solid black;
+        padding: 10px;
+    }
